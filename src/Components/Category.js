@@ -4,6 +4,16 @@ import Categories from "./Categories";
 const Category = () => {
   const [data, setData] =
     useState(Categories);
+  const filterResult = (catItem) => {
+    const result = Categories.filter(
+      (curData) => {
+        return (
+          curData.category === catItem
+        );
+      }
+    );
+    setData(result);
+  };
   return (
     <div>
       <h1 className="text-center text-info">
@@ -12,22 +22,56 @@ const Category = () => {
       <div className="container-fluid mx-2">
         <div className="row mt-5 mx-2">
           <div className="col-md-3">
-            <button className="btn btn-warning w-100 mb-4">
+            <button
+              className="btn btn-warning w-100 mb-4"
+              onClick={() =>
+                filterResult(
+                  "Electronic"
+                )
+              }
+            >
               Electronics
             </button>
-            <button className="btn btn-warning w-100 mb-4">
-              Sport Equipment
+            <button
+              className="btn btn-warning w-100 mb-4"
+              onClick={() =>
+                filterResult("Sport")
+              }
+            >
+              Sport
             </button>
-            <button className="btn btn-warning w-100 mb-4">
+            <button
+              className="btn btn-warning w-100 mb-4"
+              onClick={() =>
+                filterResult(
+                  "Furniture"
+                )
+              }
+            >
               Furniture
             </button>
-            <button className="btn btn-warning w-100 mb-4">
+            <button
+              className="btn btn-warning w-100 mb-4"
+              onClick={() =>
+                filterResult("Software")
+              }
+            >
               Software
             </button>
-            <button className="btn btn-warning w-100 mb-4">
+            <button
+              className="btn btn-warning w-100 mb-4"
+              onClick={() =>
+                filterResult("Food")
+              }
+            >
               Grossery
             </button>
-            <button className="btn btn-warning w-100 mb-4">
+            <button
+              className="btn btn-warning w-100 mb-4"
+              onClick={() =>
+                setData(Categories)
+              }
+            >
               All
             </button>
           </div>

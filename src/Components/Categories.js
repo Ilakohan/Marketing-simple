@@ -4,7 +4,7 @@ const Categories = [
     title: "Amazon Bip Home",
     price: 370,
     image: "./Image/BipHome.png",
-    category: "Software Solution",
+    category: "Software",
   },
   {
     id: 2,
@@ -17,14 +17,14 @@ const Categories = [
     id: 3,
     title: "Kanken Bag",
     price: 370,
-    image: "./Image/KankenBag.png",
-    category: "Sport Equipment",
+    image: "./Image/bag.png",
+    category: "Sport",
   },
   {
     id: 4,
     title: "Spine Chair",
     price: 370,
-    image: "./Image/Spines-chair.png",
+    image: "./Image/chair.png",
     category: "Furniture",
   },
   {
@@ -39,7 +39,7 @@ const Categories = [
     title: "Yoga Mat",
     price: 370,
     image: "./Image/YogaMat.png",
-    category: "Sport Equipment",
+    category: "Sport",
   },
   {
     id: 7,
@@ -47,11 +47,11 @@ const Categories = [
     price: 370,
     image:
       "./Image/apple-tv-png-apple-tv-4k-png-transparent.png",
-    category: "Software Solution",
+    category: "Software",
   },
   {
     id: 8,
-    title: "Food & Grossery",
+    title: "Ferrero",
     price: 370,
     image: "./Image/Ferrero.jpg",
   },
@@ -61,7 +61,7 @@ const Categories = [
     price: 370,
     image:
       "./Image/Food & Grossery2.jpg",
-    category: "Food & Grossery",
+    category: "Food",
   },
   {
     id: 10,
@@ -75,29 +75,65 @@ const Categories = [
     title: "Macaron",
     price: 370,
     image: "./Image/macarona.jpeg",
-    category: "Food & Grossery",
+    category: "Food",
   },
-  {
-    id: 12,
-    title: "Ferrero",
-    price: 370,
-    image: "./Image/YogaMat.png",
-    category: "Food & Grossery",
-  },
+
   {
     id: 13,
     title: "Sport Shoes",
     price: 370,
     image:
       "./Image/Sport-shoes-green.png",
-    category: "Sport Equipment",
+    category: "Sport",
   },
   {
     id: 14,
     title: "Sport Shoes",
     price: 370,
     image: "./Image/Sport-shoes.png",
-    category: "Sport Equipment",
+    category: "Sport",
+  },
+  {
+    id: 15,
+    title: "Kettle",
+    price: 370,
+    image: "./Image/kettle.png",
+    category: "Furniture",
+  },
+  {
+    id: 16,
+    title: "laptop",
+    price: 370,
+    image: "./Image/laptop.png",
+    category: "Electronic",
+  },
+  {
+    id: 17,
+    title: "Mobile",
+    price: 370,
+    image: "./Image/mobile.png",
+    category: "Electronic",
+  },
+  {
+    id: 18,
+    title: "Shoes",
+    price: 370,
+    image: "./Image/shoes.png",
+    category: "Sport",
+  },
+  {
+    id: 19,
+    title: "Shoes",
+    price: 370,
+    image: "./Image/shoesnike.png",
+    category: "Sport",
+  },
+  {
+    id: 20,
+    title: "TV",
+    price: 370,
+    image: "./Image/tv.png",
+    category: "Electronic",
   },
 ];
 
